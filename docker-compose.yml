@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     ports:
       - "80:80"
-      - "888:443"
+      - "443:443"
     volumes:
       - proxy-data:/data
       - letsencrypt-data:/etc/letsencrypt
